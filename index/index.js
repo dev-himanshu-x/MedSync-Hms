@@ -1,5 +1,5 @@
 var app = angular.module('myapp', ['ui.router'])
-var url = "https://backend-hospital-management-angularjs.onrender.com/"
+var url = "https://backend-medsync-2i7z.onrender.com/"
 
 function setCurrentUser(user) {
     localStorage.setItem('hms_user', JSON.stringify(user))
